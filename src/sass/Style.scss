@@ -366,3 +366,65 @@ nav {
             }
         }
 }
+
+//Subscribe page
+.subscribe {
+    margin-top: 100px;
+    
+    .iconImage {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 100px;
+        
+    }
+
+    .subscribePage {
+        div {
+            opacity: 0.200;
+            width: 1070px;
+            height: 307px;
+            border-radius: 70px 0 0 0;
+            background-color: #dfd7f9;
+            margin-left: 50px;
+            // background-image: url('../resources/images/location.png');
+            // background-repeat: no-repeat;
+            // background-position:  top right;
+            h2 {
+                color: #5e6282;
+                font-size: 33px;
+                width: 800px;
+                padding-top: 100px;
+                padding-left: 130px;
+            }
+                p {
+                    height: 40px;
+                    width: 400px;
+                    background-color: #ffffff;
+                    margin-left: 200px;
+                    text-align: left;
+                    padding-left: 10px;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                span {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 10px;
+                    button {
+                        font-weight: 500;
+                        color: #ffffff;
+                        font-size: 20px;
+                    }
+                }
+                .buttonClass {
+                    width: 180px;
+                    height: 40px;
+                    border-radius: 10px;
+                    background-image: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+                }
+        }
+    }
+}
