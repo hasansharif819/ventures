@@ -15,7 +15,7 @@ const Home = () => {
                 <p id='playDemo'> <span><i className="fa-solid fa-circle-play"></i></span> Play Demo</p>
             </span>
         </div>
-        <div>
+        <div className='homepageImage'>
             <img src={pic1} height={620} width={600} alt="" />
         </div>
         </div>
