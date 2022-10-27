@@ -178,3 +178,51 @@ nav {
         }
     }
 }
+
+//Destinations page
+.destinations {
+    p {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 50px;
+        color: #14183e;
+        margin-top: 0;
+    }
+    .cardDestinations {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .singleCard {
+            width: 314px;
+            height: 457px;
+            border-radius: 24px;
+            filter: drop-shadow(0px 16px 15px rgba(0,0,0,0.09));
+            background-color: #ffffff;
+            img {
+                height: 350px;
+                width: 100%;
+            }
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                h2 {
+                    font-size: 18px;
+                    color: #5e6282;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+            p {
+                margin-top: 5px;
+                text-align: left;
+                margin-left: 40px;
+                span {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
