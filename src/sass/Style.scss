@@ -101,3 +101,80 @@ nav {
         }
     }
 }
+
+//category page
+.category {
+    background-color: $bgColor;
+    margin-top: 50px;
+    div {
+        p {
+            margin-bottom: 0;
+            color: #5e6282;
+            font-size: 18px;
+        }
+        h2 {
+            margin-top: 0;
+            color: #14183e;
+            font-size: 50px;
+        }
+    }
+    .cardDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .card {
+                width: 267px;
+                height: 314px;
+                border-radius: 36px;
+                filter: drop-shadow(0px 52px 26.5px rgba(0,0,0,0.07));
+                background-color: #ffffff;
+                background-image: url('../resources/images/Rectangle\ 158.png');
+                background-repeat: no-repeat;
+                background-position: center;
+            img {
+                height: 100px;
+                width: 100px;
+                margin-bottom: 30px;
+            }
+            h2 {
+                margin-top: 20px;
+                color: $cardColor;
+                font-size: 20px;
+            }
+            p {
+                width: 200px;
+                text-align: center;
+                margin-left: 30px;
+            }
+        }
+        .card2 {
+                width: 267px;
+                height: 314px;
+                border-radius: 36px;
+                filter: drop-shadow(0px 52px 26.5px rgba(0,0,0,0.07));
+                background-color: #ffffff;
+                background-image: url('../resources/images/Rectangle\ 157.png');
+                background-repeat: no-repeat;
+                background-position: bottom;
+                background-image: url('../resources/images/Rectangle\ 158.png');
+                background-repeat: no-repeat;
+                background-position: center;
+            img {
+                height: 100px;
+                width: 100px;
+                margin-bottom: 30px;
+            }
+            h2 {
+                margin-top: 20px;
+                color: $cardColor;
+                font-size: 20px;
+            }
+            p {
+                width: 200px;
+                text-align: center;
+                margin-left: 30px;
+            }
+        }
+    }
+}
