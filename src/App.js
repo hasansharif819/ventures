@@ -7,6 +7,7 @@ import Destinations from './components/Destinations/Destinations';
 import NextTrip from './components/NextTrip/NextTrip';
 import Testimonials from './components/Testimonials/Testimonials';
 import Subscribe from './components/Subscribe/Subscribe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <NextTrip />
       <Testimonials />
       <Subscribe />
+      <Footer />
     </div>
   );
 }

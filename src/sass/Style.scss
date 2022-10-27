@@ -428,3 +428,38 @@ nav {
         }
     }
 }
+
+//Footer
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .FooterJadoo {
+        h2 {
+            color: #181e4b;
+            font-size: 44px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #5e6282;
+            font-size: 13px;
+            width: 200px;
+            margin-top: 0;
+        }
+    } 
+
+    .FooterIcon {
+        span {
+            font-size: 40px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+}
