@@ -226,3 +226,49 @@ nav {
         }
     }
 }
+
+//Next trip page
+.nextTrip {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    p {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    h2 {
+        text-align: left;
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .nextTripText {
+        div {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-bottom: 10px;
+            div {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                gap: 0;
+                h5 {
+                    text-align: left;
+                    margin-left: 0;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                    font-size: 16px;
+                    color: #5e6282;
+                }
+                p {
+                    font-size: 13px;
+                    color: #5e6282;
+                    width: 60%;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
