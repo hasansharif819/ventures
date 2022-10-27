@@ -84,14 +84,15 @@ nav {
 .playDemo {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
     justify-content: start;
     button {
-        font-size: 18px;
-        background-color: rgb(223, 194, 31);
-        padding: 10px 30px;
+        width: 170px;
+        height: 40px;
         border-radius: 10px;
-        border: 0;
+        filter: drop-shadow(0px 20px 40.5px rgba(241,165,1,0.15));
+        background-color: #f1a501;
     }
     p {
         color: $playDemo;
@@ -129,9 +130,6 @@ nav {
                 border-radius: 36px;
                 filter: drop-shadow(0px 52px 26.5px rgba(0,0,0,0.07));
                 background-color: #ffffff;
-                background-image: url('../resources/images/Rectangle\ 158.png');
-                background-repeat: no-repeat;
-                background-position: center;
             img {
                 height: 100px;
                 width: 100px;
@@ -156,10 +154,7 @@ nav {
                 background-color: #ffffff;
                 background-image: url('../resources/images/Rectangle\ 157.png');
                 background-repeat: no-repeat;
-                background-position: bottom;
-                background-image: url('../resources/images/Rectangle\ 158.png');
-                background-repeat: no-repeat;
-                background-position: center;
+                background-position: bottom left;
             img {
                 height: 100px;
                 width: 100px;
